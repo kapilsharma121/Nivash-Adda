@@ -197,8 +197,10 @@ button span:nth-child(4) {
 /* Media queries for responsive design */
 @media (max-width: 768px) {
     .container {
-        width: 50%;
-        height: 50%;
+        width: 70%;
+        height: auto;
+        border-radius: 20px; /* Change from circle to rectangle */
+        box-shadow: 0 0 15px 7px rgba(255, 74, 74, 0.7); /* Adjust shadow for a more rectangular shape */
     }
 
     .text h1 {
@@ -208,9 +210,10 @@ button span:nth-child(4) {
 
 @media (max-width: 480px) {
     .container {
-        width: 80%;
+        width: 90%;
         height: auto;
         border-radius: 10px; /* Change from circle to rectangle */
+        box-shadow: 0 0 10px 5px rgba(255, 74, 74, 0.7); /* Adjust shadow for a more rectangular shape */
     }
 
     .text h1 {
